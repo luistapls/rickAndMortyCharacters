@@ -1,0 +1,39 @@
+.contenedor {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.item-character {
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-character {
+  display: flex;
+  margin: 20px;
+}
+
+.contenedor-character p {
+  margin-bottom: 0px;
+}
+
+.contenedor-character div {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pagination div {
+  display: flex;
+}
+
+.pagination :hover {
+  cursor: pointer;
+}
+
